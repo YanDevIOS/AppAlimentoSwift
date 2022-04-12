@@ -13,6 +13,7 @@
 		716E5A252799B68600FE544A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716E5A232799B68600FE544A /* Main.storyboard */; };
 		716E5A272799B68800FE544A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716E5A262799B68800FE544A /* Assets.xcassets */; };
 		716E5A2A2799B68800FE544A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716E5A282799B68800FE544A /* LaunchScreen.storyboard */; };
+		717657F528054499007ED0E1 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717657F428054499007ED0E1 /* RemoveRefeicaoViewController.swift */; };
 		7182F91527EA2A4F00A1326C /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7182F91327EA2A4F00A1326C /* AdicionarItensViewController.swift */; };
 		7182F91627EA2A4F00A1326C /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7182F91427EA2A4F00A1326C /* AdicionarItensViewController.xib */; };
 		71C3470527DA80080001CB1E /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3470427DA80080001CB1E /* Refeicao.swift */; };
@@ -30,6 +31,7 @@
 		716E5A262799B68800FE544A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716E5A292799B68800FE544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716E5A2B2799B68800FE544A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717657F428054499007ED0E1 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
 		7182F91327EA2A4F00A1326C /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
 		7182F91427EA2A4F00A1326C /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 		71C3470427DA80080001CB1E /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				716E5A212799B68600FE544A /* ViewController.swift */,
 				71D6BEA627E106860000BB31 /* RefeicoesTableViewController.swift */,
 				7182F91327EA2A4F00A1326C /* AdicionarItensViewController.swift */,
+				717657F428054499007ED0E1 /* RemoveRefeicaoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				71EBB9FF27F502AC00D970D5 /* Alerta.swift in Sources */,
 				71C3470B27DA83100001CB1E /* Item.swift in Sources */,
 				716E5A222799B68600FE544A /* ViewController.swift in Sources */,
+				717657F528054499007ED0E1 /* RemoveRefeicaoViewController.swift in Sources */,
 				7182F91527EA2A4F00A1326C /* AdicionarItensViewController.swift in Sources */,
 				716E5A1E2799B68600FE544A /* AppDelegate.swift in Sources */,
 				71D6BEA727E106860000BB31 /* RefeicoesTableViewController.swift in Sources */,

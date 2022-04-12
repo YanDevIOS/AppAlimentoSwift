@@ -38,26 +38,20 @@ class RefeicoesTableViewController: UITableViewController, AddRefeicaoDelegate {
             let celula = gesture.view as! UITableViewCell
             guard let indexPath = tableView.indexPath(for: celula) else { return }
             let refeicao = refeicoes[indexPath.row]
-            let alerta = UIAlertController(title: refeicao.nome, message: refeicao.detalhes(), preferredStyle: .alert)
-            let botaoCancelar = UIAlertAction(title: "Cancelar", style: .cancel)
-            alerta.addAction(botaoCancelar)
-            let botaoRemover = UIAlertAction(title: "Remover", style: .destructive, handler: { alerta in
+            
+            RemoveRefeicaoViewController(controller: self).exibe(refeicao, handler: {alert in
                 self.refeicoes.remove(at: indexPath.row)
                 self.tableView.reloadData()
             })
             
-                alerta.addAction(botaoRemover)
-            
-                present(alerta, animated: true, completion: nil)
-            
-            }
         }
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "adicionar" {
-                if let viewController = segue.destination as? ViewController {
-                    viewController.delegate = self
-                }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "adicionar" {
+            if let viewController = segue.destination as? ViewController {
+                viewController.delegate = self
             }
         }
     }
-
+}
